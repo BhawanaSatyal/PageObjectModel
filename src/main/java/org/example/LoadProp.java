@@ -1,2 +1,23 @@
-package org.example;public class LoadProp {
+package org.example;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class LoadProp {
+    static Properties prop = new Properties();
+    static FileInputStream input;
+    static String propertiesFileLocation = "src/test/TestConfig.properties";
+
+    public static String getProperty(String key) {
+        try {
+            input = new FileInputStream(propertiesFileLocation);
+            prop.load(input);
+            input.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return prop.getProperty(key);
+    }
 }

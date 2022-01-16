@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="25143" started-at="2022-01-15T14:57:59 GMT" finished-at="2022-01-15T14:58:24 GMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="25143" started-at="2022-01-15T14:57:59 GMT" finished-at="2022-01-15T14:58:24 GMT">
+      <class name="org.example.TestSuit">
+        <test-method status="PASS" signature="runBrowser()[pri:0, instance:org.example.TestSuit@4566e5bd]" name="runBrowser" is-config="true" duration-ms="5489" started-at="2022-01-15T14:57:59 GMT" finished-at="2022-01-15T14:58:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBrowser -->
+        <test-method status="PASS" signature="userIsAbleToNavigateToTheDesktopPage()[pri:0, instance:org.example.TestSuit@4566e5bd]" name="userIsAbleToNavigateToTheDesktopPage" duration-ms="2587" started-at="2022-01-15T14:58:04 GMT" finished-at="2022-01-15T14:58:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIsAbleToNavigateToTheDesktopPage -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.example.TestSuit@4566e5bd]" name="closeBrowser" is-config="true" duration-ms="117" started-at="2022-01-15T14:58:07 GMT" finished-at="2022-01-15T14:58:07 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userIsAbleToNavigateToTheDesktopPage status=SUCCESS method=TestSuit.userIsAbleToNavigateToTheDesktopPage()[pri:0, instance:org.example.TestSuit@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="runBrowser()[pri:0, instance:org.example.TestSuit@4566e5bd]" name="runBrowser" is-config="true" duration-ms="3400" started-at="2022-01-15T14:58:07 GMT" finished-at="2022-01-15T14:58:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBrowser -->
+        <test-method status="PASS" signature="userShouldBeAbleToReferAProductToAFriend()[pri:0, instance:org.example.TestSuit@4566e5bd]" name="userShouldBeAbleToReferAProductToAFriend" duration-ms="8278" started-at="2022-01-15T14:58:10 GMT" finished-at="2022-01-15T14:58:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToReferAProductToAFriend -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.example.TestSuit@4566e5bd]" name="closeBrowser" is-config="true" duration-ms="121" started-at="2022-01-15T14:58:19 GMT" finished-at="2022-01-15T14:58:19 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userShouldBeAbleToReferAProductToAFriend status=SUCCESS method=TestSuit.userShouldBeAbleToReferAProductToAFriend()[pri:0, instance:org.example.TestSuit@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="runBrowser()[pri:0, instance:org.example.TestSuit@4566e5bd]" name="runBrowser" is-config="true" duration-ms="2838" started-at="2022-01-15T14:58:19 GMT" finished-at="2022-01-15T14:58:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBrowser -->
+        <test-method status="PASS" signature="verifyUserShouldBeRegisteredSuccessfully()[pri:0, instance:org.example.TestSuit@4566e5bd]" name="verifyUserShouldBeRegisteredSuccessfully" duration-ms="2162" started-at="2022-01-15T14:58:22 GMT" finished-at="2022-01-15T14:58:24 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldBeRegisteredSuccessfully -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.example.TestSuit@4566e5bd]" name="closeBrowser" is-config="true" duration-ms="109" started-at="2022-01-15T14:58:24 GMT" finished-at="2022-01-15T14:58:24 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserShouldBeRegisteredSuccessfully status=SUCCESS method=TestSuit.verifyUserShouldBeRegisteredSuccessfully()[pri:0, instance:org.example.TestSuit@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.example.TestSuit -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

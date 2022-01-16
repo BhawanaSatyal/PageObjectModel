@@ -13,3 +13,5 @@ public class RegistrationSuccess extends Utils {
         Assert.assertEquals(expectedRegistrationSuccessMessage, actualRegistrationSuccessMessage);
     }
 }
+
+

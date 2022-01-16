@@ -39,8 +39,6 @@ public class RegistrationPage extends Utils {
         public void clickOnRegister1() {
             waitForClickable(By.name("register-button"), 10);// applied wait time
             clickOnElement(_clickOnRegisterButton);
-
-
             }
 
     }

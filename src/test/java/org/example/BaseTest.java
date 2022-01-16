@@ -1,5 +1,7 @@
 package org.example;
 
+
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -14,8 +16,16 @@ public class BaseTest extends Utils {
 
 
     @AfterMethod
-    public void closeBrowser() {
-        browserManager.closeBrowser();//closing the browser
+    public void closeBrowser(ITestResult result) {
+         //closing the browser
+            if (!result.isSuccess()) {
+                captureScreenShot(result.getName());
+            }
+
+             browserManager.closeBrowser();
+        }
     }
-}
+
+
+
 
